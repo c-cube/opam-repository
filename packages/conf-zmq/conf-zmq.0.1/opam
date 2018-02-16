@@ -10,6 +10,6 @@ depexts: [
   [["ubuntu"] ["libzmq3-dev"]]
   [["osx" "homebrew"] ["zeromq"]]
   [["alpine"] ["zeromq-dev"]]
-  [["centos"] ["zeromq-devel"]]
+  [["centos"] ["epel-release" "zeromq-devel"]]
   [["fedora"] ["zeromq-devel"]]
 ]
