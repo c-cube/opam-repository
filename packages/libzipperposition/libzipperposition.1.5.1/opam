@@ -1,0 +1,32 @@
+opam-version: "2.0"
+synopsis: "Library for Zipperposition"
+maintainer: "simon.cruanes.2007@m4x.org"
+authors: "Simon Cruanes"
+tags: ["logic" "unification" "term" "superposition" "prover"]
+homepage: "https://github.com/sneeuwballen/zipperposition"
+bug-reports: "https://github.com/sneeuwballen/zipperposition/issues"
+depends: [
+  "base-bytes"
+  "base-unix"
+  "zarith"
+  "logtk" {= version}
+  "containers" {>= "1.0"}
+  "iter" {>= "1.2"}
+  "dune" {build}
+  "msat" {>= "0.8" & < "0.9"}
+  "menhir" {build}
+  "logtk"
+  "ocaml" {>= "4.03"}
+]
+build: [
+  ["dune" "build" "-p" name]
+  ["dune" "build" "@doc" "-p" name] {with-doc}
+]
+dev-repo: "git+https://github.com/sneeuwballen/zipperposition.git"
+url {
+  src: "https://github.com/sneeuwballen/zipperposition/archive/1.5.1.tar.gz"
+  checksum: [
+    "md5=6a35665ca05af98b982cb43ecba1a9df"
+    "sha512=2e05ed03a4f407e0431eabe1fcec68d3cb7cc17edb37b622e81e1de4df65e4d8ae83f68de68e7f7ae977437edc4e985cb297da86593dfdc8829177007d63a588"
+  ]
+}
