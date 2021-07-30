@@ -18,7 +18,7 @@ depexts: [
   ["cargo"] {os-family = "ubuntu"}
   ["cargo"] {os-distribution = "nixos"}
   ["cargo"] {os-family = "alpine"}
-  ["rust"] {os-family = "arch"}
+  ["cargo"] {os-family = "arch"}
   ["rust"] {os = "macos" & os-distribution = "homebrew"}
 ]
 x-ci-accept-failures: [
