@@ -23,9 +23,9 @@ homepage: "https://github.com/c-cube/printbox/"
 dev-repo: "git+https://github.com/c-cube/printbox.git"
 bug-reports: "https://github.com/c-cube/printbox/issues/"
 url {
-  src: "https://github.com/c-cube/printbox/archive/v0.6.tar.gz"
+  src: "https://github.com/c-cube/printbox/archive/v0.6.1.tar.gz"
   checksum: [
-    "md5=052766382422020d9e92641d788c1b50"
-    "sha512=95739aa35afae261912a192faff55a6f2293cf82f6e814a7329a88a03c8aaf6d26eab124687b81f98b92d96f7bbe5eaf8a376dcacca12c74f769eadede26da20"
+    "md5=86ce7b9e5a0c7aa43f85e7addd780b83"
+    "sha512=9ae006e374ae7d8cfbe2b59ac5f8bc7996d6758e6b109b8edac89957c5e27b8d8c0611bdab03e024194f406678553cf080662c89c6483a765ab984eb8b56ec6e"
   ]
 }
