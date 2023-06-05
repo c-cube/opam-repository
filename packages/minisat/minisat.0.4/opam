@@ -18,9 +18,9 @@ dev-repo: "git+https://github.com/c-cube/ocaml-minisat.git"
 bug-reports: "https://github.com/c-cube/ocaml-minisat/issues"
 authors: "simon.cruanes.2007@m4x.org"
 url {
-  src: "https://github.com/c-cube/ocaml-minisat/archive/v0.4.tar.gz"
+  src: "https://github.com/c-cube/ocaml-minisat/archive/v0.5.tar.gz"
   checksum: [
-    "md5=a17f04229fcba9f454b3499386f35d5e"
-    "sha512=e05d49ea0f6b8379c61795f20331b930daba0cb1dde8eb5c0a2810e18d43b997252af5f97fffbf427b890f982ca09b195b8591648bb702e819a191ce13cdee46"
+    "md5=d131b3b918591d37ba0658fe7f0ead93"
+    "sha512=984f6436cd7db2c23a57447926b49488ff21e8647525738cc8cc1575eec9d9a7cadce76b470ba1fdbcd0ecb49282d630243609472bed21eeec6bb0ff9cc0e8b0"
   ]
 }
